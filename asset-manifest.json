@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/simplesnake/static/css/main.6e8a1f26.css",
+    "main.js": "/simplesnake/static/js/main.435f6ec7.js",
+    "static/js/787.e1ef6af0.chunk.js": "/simplesnake/static/js/787.e1ef6af0.chunk.js",
+    "static/media/logo1.svg": "/simplesnake/static/media/logo1.c934da8f8c24ac934af0668bffa3a448.svg",
+    "static/media/logo2.svg": "/simplesnake/static/media/logo2.7670cd18d273301b55ecdce28cde94a1.svg",
+    "index.html": "/simplesnake/index.html",
+    "main.6e8a1f26.css.map": "/simplesnake/static/css/main.6e8a1f26.css.map",
+    "main.435f6ec7.js.map": "/simplesnake/static/js/main.435f6ec7.js.map",
+    "787.e1ef6af0.chunk.js.map": "/simplesnake/static/js/787.e1ef6af0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e8a1f26.css",
+    "static/js/main.435f6ec7.js"
+  ]
+}
