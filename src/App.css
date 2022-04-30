@@ -1,6 +1,6 @@
 /*****************************************/
 /*   Simple Snake Styles by PapaProger   */
-/*        version 1.0, 28.04.2022        */
+/*        version 1.1, 30.04.2022        */
 /*****************************************/
 
 html {
@@ -19,8 +19,8 @@ html {
 }
 
 .game-area {
-  width: 100vmin;
-  height: 66.6vmin; /* устанавливать программно */
+  width: 98vmin;
+  height: 65.33vmin; /* устанавливать программно */
 
   box-shadow: 0px 0px 1vmin 0 white;
   cursor: pointer;
@@ -47,7 +47,16 @@ html {
   height: 86%;
   margin: 7%;
 
-  border-radius: 0.5vmin;
+  border-radius: 0.8vmin;
+}
+
+.snake-cell {
+  background-color: bisque;
+  transition: all 0.5s ease-in-out;
+}
+
+.stone {
+  background-color: brown;
 }
 
 .logo1, .logo2 {
@@ -74,20 +83,14 @@ html {
 
 @media only screen and (min-height: 400px) {
   .snake-cell {
-    box-shadow: 0px 0px 0.5vmin 0 greenyellow;
+    box-shadow: 0px 0px 0.5vmin 0 red;
   }
   .stone {
-    box-shadow: 0px 0px 0.5vmin 0 yellow;
+    box-shadow: 0px 0px 0.5vmin 0 whitesmoke;
   }
 }
 
 @media only screen and (max-height: 400px) {
-  .snake-cell {
-    background-color: darkolivegreen;
-  }
-  .stone {
-    background-color: darkkhaki;
-  }
   .logo1, .logo2 {
     display: none;
   }
